@@ -1,0 +1,23 @@
+@media screen and (max-width:576px) {
+    * {
+        width: 100%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        /*justify-content: center;*/
+
+    }
+
+
+}
+
+
+
+
+
+
+@media screen and (min-width:992px) {
+
+}
