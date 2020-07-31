@@ -23,7 +23,13 @@
     div a:hover {
         color: orange;
     }
-
+    h1 {
+        display: flex;
+        justify-content: center;
+        /*align-items: flex-start;*/
+        margin: .25em auto;
+        font-size: 3em;
+    }
 
 
 }
