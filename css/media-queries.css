@@ -6,9 +6,24 @@
     body {
         display: flex;
         flex-direction: column;
-        /*justify-content: center;*/
-
+        font-family: "arial";
     }
+    div a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #ccffff;
+        height: 4em;
+        width: 90%;
+        border: .1em solid lightgrey;
+        margin: auto;
+        color: black;
+        text-decoration: none;
+    }
+    div a:hover {
+        color: orange;
+    }
+
 
 
 }
