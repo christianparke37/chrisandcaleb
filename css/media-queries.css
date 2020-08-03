@@ -1,6 +1,7 @@
 @media screen and (max-width:576px) {
     * {
         max-width: 100%;
+        /*max-height: 100%;*/
         /*width: 100%;*/
         /* originally width, but we
         experienced a scroll bar. */
@@ -100,13 +101,14 @@
         font-size: .40em;
     }
     footer {
+        background-color: white;
+        width: 95%;
         height: 2em;
-        display: flex;
-        justify-content: center;
+        /*display: flex;*/
+        /*justify-content: center;*/
         margin-right: auto;
         bottom: 0;
-        position: absolute;
-
+        position: relative;
     }
 }
 
@@ -114,9 +116,13 @@
 @media screen and (min-width:577px) {
     * {
         max-width: 100%;
+        /*max-height: 100%;*/
         /*width: 100%;*/
         /* originally width, but we
         experienced a scroll bar. */
+
+        /* scaling webpages mislead sizing   */
+        /* also lining up main and sub section   */
     }
 
     body {
@@ -192,11 +198,14 @@
     .main {
         font-size: .50em;
         max-width: 95%;
+        margin: auto;
     }
+
     .sub-section {
         font-family: "arial";
+        margin: auto;
         /* what is this font
-
+        display:
          */
         max-width: 95%;
         font-style: italic;
@@ -207,12 +216,13 @@
         font-size: .40em;
     }
     footer {
+        background-color: white;
+        width: 95%;
         height: 2em;
-        display: flex;
-        justify-content: center;
+        /*display: flex;*/
+        /*justify-content: center;*/
         margin-right: auto;
         bottom: 0;
-        position: absolute;
-
+        position: relative;
     }
 }
